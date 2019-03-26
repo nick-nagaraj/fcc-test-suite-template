@@ -1,26 +1,214 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<html>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Nanum Gothic" rel="stylesheet">
+ 
 
-    <!--
+</head>
 
-    Hello Camper!
+<body>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+  <nav id="navbar">
+    <header id="#navtitle">
+      <h1>HTML</h1>
+      <h1>Documentation</h1>
+    </header>
+    <ul>
+      <li><a class="nav-link" href="#introduction">Introduction</a> 
+</li>
+      <br>
+      <hr>
+      <li><a class="nav-link" href="#tutorials">Tutorials</a></li>
+      <br>
+      <hr>
+      <li><a class="nav-link" href="#advanced_topics">Advanced Topics</a></li>
+      <br>
+      <hr>
+      <li><a class="nav-link" href="#references">References</a></li>
+      <br>
+      <hr>
+      <li><a class="nav-link" href="#Project_Author_and_Extras">Project Author and Extras</a></li>
+      <br>
+      <hr>
+    </ul>
+  </nav>
 
-    - The freeCodeCamp Team
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>
+        <br>
+        <h1 id = "real" align = "left">Introduction  <img src = "https://image.flaticon.com/icons/svg/1197/1197447.svg" height = "200" width = "200" align = "right"></h1>
+        <hr>
+      </header>
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+      <p> HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+
+"HyperText" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+
+HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as "&lthead&gt, &lttitle&gt, &ltbody&gt, &ltheader&gt, &ltfooter&gt, &ltarticle&gt, &ltsection&gt, &ltp&gt, &ltdiv&gt, &ltspan&gt, &ltimg&gt, &ltaside&gt, &ltaudio&gt, &ltcanvas&gt, &ltdatalist&gt, &ltdetails&gt, &ltembed&gt, &ltnav&gt, &ltoutput&gt, &ltprogress&gt, &ltvideo&gt and many others.
+
+Tags in HTML are case insensitive. That is, they can be written in uppercase, lowercase, or a mixture. Example &lttitle&gt tag can be written as &ltTitle&gt,&ltTITLE&gt or in any other way.
+      <code>1 &lth1&gt Hi there! &lt/h1&gt</code>
+      <code>2 &ltH1&gt Hi there! &lt/H1&gt</code>
+      <p> The above lines produce the same output, <p>
+      <code> Hi there! </code>
+      <br>
+      <h2><points> Important Points  </points></h2>
+      <ul>
+        <li>Tags are case insensitive.</li>
+        <li>HTML uses "markup"</li>
+      </ul>
+    </section>
+    <section class="main-section" id="tutorials">
+      <header>
+
+        <h1 id = "real" align = "left">Tutorials <img src = "        https://image.flaticon.com/icons/svg/948/948256.svg" height = "200" width = "200" align = "right"></h1>
+        <hr>
+      </header>
+      <p>
+        
+      <h3>Introduction to HTML</h3>
+    <p>This module sets the stage, getting you used to important concepts and syntax such as looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a web page.</p>
+      <h3>Multimedia and embedding</h3>
+   <p> This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire other webpages.</p>
+      <h3>HTML tables</h3>
+    <p>Representing tabular data on a webpage in an understandable, accessible way can be a challenge. This module covers basic table markup, along with more complex features such as implementing captions and summaries.</p>
+      <h3>HTML forms</h3>
+    <p>Forms are a very important part of the Web — these provide much of the functionality you need for interacting with websites, e.g. registering and logging in, sending feedback, buying products, and more. This module gets you started with creating the client-side/front-end parts of forms.</p>
+      <h3>Use HTML to solve common problems</h3>
+   <p> Provides links to sections of content explaining how to use HTML to solve very common problems when creating a web page: dealing with titles, adding images or videos, emphasizing content, creating a basic form, etc. <p/>
+      <code>&lt!--This is a comment--&gt</code>
+      <code>&lth1&gt This is huge! &lt/h1&gt </code>
+      <code>&lth2&gt This is pretty big! &lt/h2&gt </code>
+      <code>&lth1&gt This is alright. &lt/h1&gt </code>
+      <h2 align = "left"><points> Important Points </points></h2>
+      <ul>
+
+        <li>HTML allows you to incorporate various multimedia into your web pages</li>
+        <li>Forms are an important way for users to interact with your website!</li>
+        <li>HTML tables allow systematic tabulation of data.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="advanced_topics">
+      <header>
+        <h1 id = "real" align = "left">Advanced Topics <img src = "        https://image.flaticon.com/icons/svg/1491/1491165.svg" height = "200" width = "200" align = "right"></h1>
+      </header>
+      <hr>
+      <h3>CORS enabled image</h3>
+The crossorigin attribute, in combination with an appropriate CORS header, allows images defined by the &ltimg&gt element to be loaded from foreign origins and used in a &ltcanvas&gt element as if they were being loaded from the current origin.
+      <br>
+      <h3>CORS settings attributes</h3>
+Some HTML elements that provide support for CORS, such as &ltimg&gt or &ltvideo&gt, have a crossorigin attribute (crossOrigin property), which lets you configure the CORS requests for the element's fetched data.
+      <br>
+      <h3>Focus management in HTML</h3>
+The activeElement DOM attribute and the hasFocus() DOM method help you track and control a user's interactions with elements on a web page.
+      <br>
+<h3>Using the application cache</h3>
+Application caching lets web-based applications run offline. You can use the Application Cache (AppCache) interface to specify resources that the browser should cache and make available to offline users. Applications that are cached load and work correctly even if users click the refresh button when they are offline.
+      <br>
+      <h3>Preloading content with rel="preload"</h3>
+The preload value of the &ltlink&gt element's rel attribute allows you to write declarative fetch requests in your HTML &lthead&gt, specifying resources that your pages will need very soon after loading, which you therefore want to start preloading early in the lifecycle of a page load, before the browser's main rendering machinery kicks in. This ensures that they are made available earlier and are less likely to block the page's first render, leading to performance improvements. This article provides a basic guide to how preload works.</p>
+      <code> &lthead>
+        <br>
+  &ltmeta charset="utf-8">
+        <br>
+  &lttitle>JS and CSS preload example&lt/title>
+        <br>
+  &ltlink rel="preload" href="style.css" as="style">
+                <br>
+  &ltlink rel="preload" href="main.js" as="script">
+                <br>
+
+  &ltlink rel="stylesheet" href="style.css">
+&lt/head>
+                <br>
+
+&ltbody>
+                <br>
+  &lth1>bouncing balls&lt/h1>
+                <br>
+  &ltcanvas>&lt/canvas>
+                <br>
+
+  &ltscript src="main.js">&lt/script>
+                <br>
+&lt/body>&lt/code>
+                <br>
+    &lt/section>
+                <br>
+    &ltsection class="main-section" id="project_information">
+                <br>
+      &ltheader>
+                <br>
+        &lth1>project information&lt/h1>
+                <br>
+      &lt/header>
+                <br>
+      &lthr>
+      </code>
+          <h2 align = "left"><points> Important Points </points></h2>
+      <ul>
+
+        <li>Application caching lets web-based applications run offline.</li>
+        <li>Some HTML elements that provide support for CORS, such as &ltimg> or &ltvideo></li>
+      </ul>
+    </section>
+    <section class="main-section" id="references">
+      <header>
+        <h1 align = "left">References <img src = "        https://image.flaticon.com/icons/svg/31/31089.svg" height = "200" width = "200" align = "right"></h1>
+      </header>
+      <hr>
+      <h3>HTML reference</h3>
+<p>HTML consists of elements, each of which may be modified by some number of attributes. HTML documents are connected to each other with links.</p>
+      <h3>HTML element reference</h3>
+      <p>Browse a list of all HTML elements.</p>
+      <h3>HTML attribute reference</h3>
+<p>Elements in HTML have attributes. These are additional values that configure the elements or adjust their behavior in various ways.</p>
+      <h3>Global attributes</h3>
+<p>Global attributes may be specified on all HTML elements, even those not specified in the standard. This means that any non-standard elements must still permit these attributes, even though those elements make the document HTML5-noncompliant.</p>
+      <h3>Inline elements and block-level elements</h3>
+<p>HTML elements are usually "inline" or "block-level" elements. An inline element occupies only the space bounded by the tags that define it. A block-level element occupies the entire space of its parent element (container), thereby creating a "block."</p>
+      <h3>Link types</h3>
+<p>In HTML, various link types can be used to establish and define the relationship between two documents. Link elements that types can be set on include &lta&gt, &ltarea&gt and &ltlink&gt.
+Media formats supported by the HTML audio and video elements
+The &ltaudio&gt and &ltvideo&gt elements allow you to play audio and video media. These elements provide a browser-native alternative to similar capabilities found in Adobe Flash and other plug-ins.</p>
+      <h3>Kinds of HTML content</h3>
+<p>HTML is comprised of several kinds of content, each of which is allowed to be used in certain contexts and is disallowed in others. Similarly, each has a set of other content categories they can contain and elements which can or can't be used in them. This is a guide to these categories.</p>
+      <h3>Quirks mode and standards mode</h3>
+      <p>Historical information on quirks mode and standards mode.</p>
+      
+    </section>
+    <section class="main-section" id="Project_Author_and_Extras">
+      <header>
+        <h1 align = "left">Project Author and Extras   <img src = "https://image.flaticon.com/icons/svg/157/157933.svg" height = "200" width = "200" align = "right"></h1>
+      </header>
+      <hr>
+      <p>HTML was created by Sir Tim Berners-Lee in late 1991 but was not released officially, which was published in 1995 as HTML 2.0. HTML 4.01 was published in late 1999 and was a major version of HTML.
+        <br>
+
+HTML is a very evolving markup language and has evolved with various versions updating. Long before its revised standards and specifications are carried in, each version has allowed its user to create web pages in the much easier and prettier way and make sites very efficient.
+           <br>
+
+    HTML 1.0 was released in 1993 with the intention of sharing information which can be readable and accessible via web browsers. But not much of the developers were involved in creating websites. So the language was also not growing.
+           <br>
+    Then comes the HTML 2.0, published in 1995; which contains all the features of HTML 1.0 along with that few additional features; which remained as the standard markup language for designing and creating websites until January 1997 and refined various core features of HTML.
+           <br>
+    Then comes the HTML 3.0, where Dave Raggett who introduced a fresh paper or draft on HTML. It included improved new features of HTML, giving more powerful characteristics for webmasters in designing web pages. But these powerful features of new HTML slowed down the browser in applying further improvements.
+           <br>
+    Then comes the HTML 4.01 which is widely used and was a successful version of HTML before HTML 5.0, which is currently released and used worldwide. HTML 5 can be said for as an extended version of HTML 4.01 which was published in the year 2012.</p>
+      <code>&lth1&gt Hello World! &lt/h1&gt</code>
+                <h2 align = "left"><points> Important Points </points></h2>
+      <ul>
+        <li>Made by Nikhil Nagaraj for the Microverse Collaboration challenge!</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+
 </html>
