@@ -9,3 +9,5 @@ This is Challenge 2 for the Microverse Collaboration Challenge (Tribute Page). I
 
 Nikhil Nagaraj and Yeuri Guzmán  
 File Names: index_2.html and style_2.css
+
+This is Challenge 3 for the Microverse Collaboration Challenge (Product Landing Page). It was worked on by:
