@@ -53,4 +53,7 @@ nav{
   flex-direction: column;
   }
   
-
+  .Contact_Us{
+    padding-left: 20;
+    text-align: center;
+  }
