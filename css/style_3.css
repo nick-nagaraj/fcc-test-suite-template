@@ -1,6 +1,26 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  min-heigh: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media(max-width:600px){
+    flex-wrap: wrap;
+  }
+  
+}
+
 nav{
   font-weight: 450; 
-}
 
 @media (max-width: 650px)
 {
@@ -16,9 +36,10 @@ nav{
     padding-bottom: 5px;
   }
 }
+  
+@media (max-width: 800px)
+{
+  flex-direction: column;
+  }
+  
 
-.flex-container{
-  display: flex;
-  flex-wrap: wrap;
-
-}
