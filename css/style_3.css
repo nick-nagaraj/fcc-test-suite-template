@@ -17,12 +17,13 @@ html, body{
 header {
   position: fixed;
   top: 0;
-  min-heigh: 75px;
+  min-height: 75px;
   padding: 0px 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #eee;
+}
   @media(max-width:600px){
     flex-wrap: wrap;
   }
@@ -31,7 +32,7 @@ header {
 
 nav{
   font-weight: 450; 
-
+}
 @media (max-width: 650px)
 {
   margin-top: 15px;
@@ -41,19 +42,39 @@ nav{
   align-items: center;
   text-align: center;
   padding 0 50px;
-  
+}
   
   li {
     padding-bottom: 5px;
   }
-}
+
   
 @media (max-width: 800px)
 {
   flex-direction: column;
   }
   
-  .Contact_Us{
-    padding-left: 20;
-    text-align: center;
-  }
+  
+#dataf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  padding-top: 60px;
+  
+}
+
+.last{
+  padding-top: 100px;
+  display:flex;
+  justify-content: center;
+}
+
+.one{
+  padding-left: 100px;
+  width: 600px;
+
+}
