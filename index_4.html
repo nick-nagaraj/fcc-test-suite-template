@@ -1,44 +1,96 @@
+<html>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+   <link href="https://fonts.googleapis.com/css?family=IBM Plex Sans" rel="stylesheet">
 
 <h1 align = 'center' id = 'title'> Personality Form </h1>
 
 <p id = "description" align = 'center'> This is a short personality form for you to figure out more about yourself! </p>
+<hr>
 
 <form id = "survey-form">
   <label id ="name-label" for = "name"> Name: </label>
   <input id = "name" placeholder = "Please enter your name" type = "text" required>
+  <br>
+  <br>
   <label id = "email-label"> E-Mail: </label><input id = "email" type = "email" placeholder = "Please enter your E-mail" required>
+  <br>
+  <br>
  <label id = "number-label">
    Phone Number: </label><input id = "number" type = "number" placeholder = "Please enter your phone number" min = "0" max = "999999999" required>
-  <label>Cat or Dog person</label>
+  <br>
+  <br>
+  <h2>Are you a cat person or a dog person?</h2>
   <select id="dropdown">
     <option>Cat</option>
     <option>Dog</option>
+    <option>I love both! </option>
+    <option> I don't like either of them </option>
   </select>
+  <br>
+  <br>
   
-    <label target>Favorite Color</label>
-  <div id="radio">
-    <label>
-      <input  name ="color" type="radio" value="red">Red</input>
+  <h2> What is your favourite color? </h2>
+  <div id="radio_button">
+    <label for = "Option_1">
+      <input id = "color_1" name ="Color" type="radio" value="Red">Red</input>
+    <br>
     </label>
-  <label>
-      <input  name ="color" type="radio" value="blue">Blue</input>
+      <label for = "Option_2">
+      <input id = "color_2" name ="Color" type="radio" value="Blue">Blue</input>
     </label>
-  
+<br>
+<label for = "Option_3">
+  <input id = "color_3" name = "Color" type = "radio" value = "Green">Green</input>
+</label>
+<br>
+<label for = "Option_4">
+  <input id = "color_4" name = "Color" type = "radio" value = "Yello">Yellow</input>
+</label>
+<br>
+<label for = "Option_5">
+  <input id = "color_5" name = "Color" type = "radio" value = "Pink">Pink</input>
+</label>
+<br>
+<label for = "Option_6">
+  <input id = "color_6" name = "Color" type = "radio" value = "Black">Black</input>
+</label>
+<br>
+<label for = "Option_7">
+  <input id = "color_7" name = "Color" type = "radio" value = "Orange">Orange</input>
+</label>
+<br>
+<label for = "Option_8">
+  <input id = "color_8" name = "Color" type = "radio" value = "I_Don't_Like_Colors">I don't like colors.</input>
+</label>
   </div>
 
-<label target>Mobile software you prefer</label>
+<h2> What is your idea of fun? </h2>
+<div id = "check_button">
+  <label>
+    <input type = "checkbox" value = "reading-book"> Sitting at home with a nice book.</label>
+  <br>
+    <label>
+    <input type = "checkbox" value = "party"> Partying all night.</label>
+  <br>
+    <label>
+    <input type = "checkbox" value = "friends_meet"> Meeting a small group of close friends.</label>
+</div>
+
+<h2>Which Mobile software do you prefer?</h2>
   <div id="radio">
     
       <input  name ="color" type="checkbox" value="android">Android</input>
       <input  name ="color" type="checkbox" value="ios">IOS</input>
+<br>
 
-<label>Aditional comments</label>
+<label>Additional comments</label>
 <textarea></textarea>
 <button id="submit" type="submit">Send</button>
   
-  </div>
+</div>
 
 
   
 </form>
+</html>
