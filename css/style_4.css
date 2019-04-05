@@ -1,0 +1,8 @@
+html, body{
+  background-image: linear-gradient(#eef2f3,#8e9eab);
+   font-family: "IBM Plex Sans";
+  
+}
+select{
+  padding:5px;
+}
